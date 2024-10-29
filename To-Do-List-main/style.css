@@ -7,10 +7,10 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  overflow: hidden;
-  height: 100vh;
-  background: linear-gradient(to bottom, #6b46c1, #9f7aea, #f687b3);
+  background-image: url('bg2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
 }
 why-need-link {
   position: absolute;
