@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>To-Do List App</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .move-left {
+        margin-left: -150px; /* Décalage de 200px vers la gauche */
+      }
+    </style>
   </head>
   <body class="bg-gray-50 text-gray-800">
     <!-- Navbar -->
     <nav class="bg-white shadow-lg sticky top-0 z-50">
-      <div
-        class="container mx-auto px-4 py-4 flex justify-between items-center"
-      >
-        <a href="#" class="text-2xl font-bold text-purple-600">To-Do List</a>
+      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-purple-600 move-left">To-Do List</a>
         <ul class="flex space-x-4">
           <!-- All of these buttons currently lead to error pages as their functionality will be added in the future
           after login and authentication has been implemented.-->
